@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Palabras clave y descripción para SEO -->
+    <meta name="description" content="Portafolio personal de desarrollo de software, diseño UX/UI y bases de datos.">
+    <meta name="keywords" content="desarrollador, portafolio, Java, Android Studio, MySQL, Figma, diseño UX, HTML, CSS">
+    <title>Mi Portafolio | Desarrollo y Diseño</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Integración de tipografía de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#academico">Académico</a></li>
+                <li><a href="#portafolio">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN 1: Datos Personales -->
+        <section id="inicio" class="hero">
+            <h1>Hola, soy Ian Barroso Avila</h1>
+            <p>Desarrollador de Software y Diseñador UX</p>
+            <img src="assets/perfil.jpg.jpg" alt="Fotografía de perfil de Ian Barroso Avila" class="foto-perfil">
+            <!-- Ejemplo de audio (puedes poner una breve presentación de voz) -->
+            <audio controls>
+                <source src="assets/hola-homero.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <!-- SECCIÓN 2: Datos Académicos y Habilidades -->
+        <section id="academico">
+            <h2>Perfil Académico y Laboral</h2>
+            <div class="habilidades-grid">
+                <article>
+                    <h3>Desarrollo Móvil y Backend</h3>
+                    <p>Experiencia en programación orientada a objetos con <strong>Java</strong> y <strong>Android Studio</strong>.</p>
+                </article>
+                <article>
+                    <h3>Diseño UX/UI y Hardware</h3>
+                    <p>Creación de prototipos interactivos en <strong>Figma</strong> y evaluación de usabilidad/accesibilidad. </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: Portafolio de Evidencias -->
+        <section id="portafolio">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <!-- Proyecto 1 -->
+                <article class="proyecto-card">
+                    <h3>App AquaLeón</h3>
+                    <p>Aplicación móvil de monitoreo de agua. Desarrollada en Java (Android Studio) con backend en MySQL.</p>
+                    <img src="assets/aqua-leon.png" alt="Prototipo de la interfaz de AquaLeón en Figma">
+                </article>
+                <!-- Proyecto 2 -->
+                <article class="proyecto-card">
+                    <h3>Curso Interactivo de Piano</h3>
+                    <p>Desarrollo de un programa educativo de nivel básico enfocado en jóvenes y niños.</p>
+                    <!-- Ejemplo de video para cumplir con el requisito multimedia -->
+                    <video controls width="100%">
+                        <source src="assets/piano.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Ponte en contacto</h2>
+            <form action="#" method="POST" class="formulario">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ian Barroso Avila. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
